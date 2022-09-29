@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VMShop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+</head>
+<body>
+    <!-- cabeçalho inicial -->
+    <header>
+
+        <!-- menu para mobile -->
+        <div class="mobile-menu bg-second">
+            <a href="./index.html" class="mb-logo">VMShop</a>
+            <span class="mb-menu-toggle" id="mb-menu-toggle">
+                <i class='bx bx-menu'></i>   
+            </span>    
+        </div>  
+
+        <!-- menu cabeçalho -->
+        <div class="header-wrapper" id="header-wrapper">
+            <span class="mb-menu-toggle mb-menu-close" id="mb-menu-close">
+                <i class='bx bx-x'></i>   
+            </span>
+            <!-- parte superior do cabeçalho -->
+            <div class="bg-second">
+                <div class="top-header container">
+                    <ul class="devided">
+                        <li>
+                            <a href="#">+5579988583973</a>
+                        </li>
+                        <li>
+                            <a href="#">vmshop@gmail.com</a>
+                        </li>
+                    </ul>
+                    <ul class="devided">
+                        <li class="dropdown">
+                            <a href="">BRL</a>
+                            <i class='bx bxs-chevron-down'></i>
+                            <ul class="dropdown-content">
+                                <li><a href="#"></a>USD</li>
+                                <li><a href="#"></a>EUR</li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="">Português</a>
+                            <i class='bx bxs-chevron-down'></i>
+                            <ul class="dropdown-content">
+                                <li><a href="#"></a>English</li>
+                                <li><a href="#"></a>Español</li>
+                            </ul>
+                        </li>
+                        <li><a href="#">RASTREAR SEU PEDIDO</a></li>
+                    </ul>
+                </div>    
+            </div>     
+            <!-- parte do meio do cabeçalho -->
+            <div class="bg-main">
+                <div class="mid-header container">
+                    <a href="./index.html" class="logo">VMShop</a>
+                    <div class="search">
+                        <input type="text" placeholder="Pesquisar">
+                        <i class='bx bx-search' ></i>
+                    </div>
+                    <ul class="user-menu">
+                        <li><a href="#"><i class='bx bx-bell'></i></a></li>
+                        <li><a href="#"><i class='bx bx-user'></i></a></li>
+                        <li><a href="#"><i class='bx bx-cart' ></i></a></li>                            
+                    </ul>
+                </div>
+            </div>
+            <!-- botão do cabeçalho -->
+            <div class="bg-second">
+                <div class="bottom-header container">
+                    <ul class="main-menu">
+                        <li><a href="./index.html">Inicio</a></li>
+                        <!-- parte maior do menu -->
+                        <li class="mega-dropdown">
+                            <a href="./products.html">Shop<i class='bx bx-chevron-down' ></i></a>
+                            <div class="mega-content">
+                                <div class="row">
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Categorias</h3>
+                                            <ul>
+                                                <li><a href="#">Wireless</a></li>
+                                                <li><a href="#">Fones Intra-Auriculares</a></li> 
+                                                <li><a href="#">Headphones</a></li> 
+                                                <li><a href="#">Fones Esportivos</a></li>  
+                                            </ul>
+                                        </div>    
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Categorias</h3>
+                                            <ul>
+                                                <li><a href="#">Wireless</a></li>
+                                                <li><a href="#">Fones Intra-Auriculares</a></li> 
+                                                <li><a href="#">Headphones</a></li> 
+                                                <li><a href="#">Fones Esportivos</a></li>  
+                                            </ul>
+                                        </div>    
+                                    </div> 
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Categorias</h3>
+                                            <ul>
+                                                <li><a href="#">Wireless</a></li>
+                                                <li><a href="#">Fones Intra-Auriculares</a></li> 
+                                                <li><a href="#">Headphones</a></li> 
+                                                <li><a href="#">Fones Esportivos</a></li>  
+                                            </ul>
+                                        </div>    
+                                    </div> 
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Categorias</h3>
+                                            <ul>
+                                                <li><a href="#">Wireless</a></li>
+                                                <li><a href="#">Fones Intra-Auriculares</a></li> 
+                                                <li><a href="#">Headphones</a></li> 
+                                                <li><a href="#">Fones Esportivos</a></li>  
+                                            </ul>
+                                        </div>    
+                                    </div>    
+                                </div>
+                                <div class="row img-row">
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="./assets/img/kisspng-beats-electronics-headphones-apple-beats-studio-red-headphones.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="./assets/img/JBL_TUNE220TWS_ProductImage_Pink_ChargingCaseOpen.png" alt="">
+                                        </div>
+                                    </div> 
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="./assets/img/JBL_JR 310BT_Product Image_Hero_Skyblue.png" alt="">
+                                        </div>
+                                    </div> 
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="./assets/img/JBLHorizon_001_dvHAMaster.png" alt="">
+                                        </div>
+                                    </div>     
+                                </div>     
+                            </div>
+                        </li>
+                        <li><a href="#blog-link">Blog</a></li>
+                        <li><a href="#contact-link">Contato</a></li>
+                    </ul>    
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- cabeçalho final -->
+
+    <!-- seção dos produtos -->
+    <div class="hero">
+        <div class="slider">
+            <div class="container">
+                <!-- slide -->
+                <div class="slide active">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                JBL TUNE 750TNC    
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                Design de última geração    
+                            </h2> 
+                            <p class="top-down trans-delay-0-4">
+                                Tenha 15 horas de reprodução sem fio com cancelamento de ruído ativo e carregue 
+                                por apenas 2 horas para obter carga completa.  
+                            </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover">
+                                    <span><a href="/products.html">Compre agora</a></span>
+                                </button>    
+                            </div>     
+                        </div>    
+                    </div>
+                    <div class="img top-down">
+                        <img src="./assets/img/JBL_E55BT_KEY_BLACK_6175_FS_x1-1605x1605px.png" alt="">    
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                JBL Live 650BTNC   
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                Com Alexa Integrada   
+                            </h2> 
+                            <p class="top-down trans-delay-0-4">
+                                Fale com a Alexa neste produto. Peça músicas, ouça notícias, controle produtos de Casa Inteligente compatíveis com Alexa e muito mais.  
+                            </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover">
+                                    <span><a href="products.html">Compre agora</a></span>
+                                </button>    
+                            </div>     
+                        </div>    
+                    </div>
+                    <div class="img right-left">
+                        <img src="./assets/img/JBL_LIVE650BTNC_Product Image_Folded_Black.webp">    
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                JBL JR 310BT   
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                Fones de ouvido on-ear infantis  
+                            </h2> 
+                            <p class="top-down trans-delay-0-4">
+                                Áudio lendário da JBL projetado para nunca exceder 85 dB, fazendo com que sejam seguros inclusive para os mais jovens admiradores de música.
+                            </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover">
+                                    <span><a href="/products.html">Compre agora</a></span>
+                                </button>    
+                            </div>     
+                        </div>    
+                    </div>
+                    <div class="img left-right">
+                        <img src="./assets/img/JBL_JR 310BT_Product Image_Hero_Skyblue.png"">    
+                    </div>
+                </div>
+                <!-- final do slide -->
+            </div>
+           
+            <!-- controlador de slide -->
+            <button class="slide-controll slide-next">
+                <i class='bx bxs-chevron-right'></i>
+            </button>
+            <button class="slide-controll slide-prev">
+                <i class='bx bxs-chevron-left'></i>
+            </button>
+
+        </div>    
+    </div>
+    <!-- final da seção dos produtos -->
+
+    <!-- seção de promoções -->
+    <div class="promotion">
+        <div class="row">
+            <div class="col-4 col-md-12 col-sm-12">
+                <div class="promotion-box">
+                    <div class="text">
+                        <h3>Headphones & AirDots</h3>
+                        <button class="btn-flat btn-hover"><span><a href="/products.html">veja mais</a></span></button>    
+                    </div>
+                    <img src="./assets/img/JBLHorizon_001_dvHAMaster.png" alt="">
+                </div>
+            </div>
+            <div class="col-4 col-md-12 col-sm-12">
+                <div class="promotion-box">
+                    <div class="text">
+                        <h3>JBL Quantum Series</h3>
+                        <button class="btn-flat btn-hover"><span><a href="/products.html">veja mais</a></span></button>    
+                    </div>
+                    <img src="./assets/img/kisspng-beats-electronics-headphones-apple-beats-studio-red-headphones.png" alt="">
+                </div>
+            </div> 
+            <div class="col-4 col-md-12 col-sm-12">
+                <div class="promotion-box">
+                    <div class="text">
+                        <h3>True Wireless (TWS)</h3>
+                        <button class="btn-flat btn-hover"><span><a href="/products.html">veja mais</a></span></button>    
+                    </div>
+                    <img src="./assets/img/JBL_TUNE220TWS_ProductImage_Pink_ChargingCaseOpen.png" alt="">
+                </div> 
+            </div> 
+        </div>        
+    </div>
+    <!-- final da seção de promoções -->
+
+    <!-- lista de produtos -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>todos os produtos</h2>
+            </div>
+            <div class="row" id="latest-products">
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./assets/img/JBL_Quantum_400_Product Image_Hero 02.png" alt="">
+                            <img src="./assets/img/JBL_Quantum_400_Product Image_Hero Mic Up.webp" alt="">    
+                        </div> 
+                        <div class="product-card-info">
+                            <div class="product-btn">
+                                <button class="btn-flat btn-hover btn-shop-now"><a href="/products.html">Ver produto</a></button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-cart-add' ></i>    
+                                </button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-heart' ></i>    
+                                </button>
+                            </div>
+                            <div class="product-card-name">
+                                JBL Quantum 400    
+                            </div>
+                            <div class="product-card-price">
+                                <span><del>R$300</del></span>
+                                <span class="curr-price">R$200</span>
+                            </div>        
+                        </div>   
+                    </div>    
+                </div>    
+            </div>
+            <div class="section-footer">
+                <a href="./products.html" class="btn-flat btn-hover">Ver mais</a>   
+            </div>
+        </div>
+    </div>
+    <!-- final da lista de produtos -->
+
+    <!-- produto especial -->
+    <div class="bg-second">
+        <div class="section container">
+            <div class="row">
+                <div class="col-4 col-md-4">
+                    <div class="sp-item-img">
+                        <img src="./assets/img/kisspng-beats-electronics-headphones-apple-beats-studio-red-headphones.png" alt="">
+                    </div>    
+                </div>
+                <div class="col-7 col-md-7">
+                    <div class="sp-item-info">
+                        <div class="sp-item-name">JBL TUNE 750TNC</div>
+                        <p class="sp-item-description">
+                            Os fones sem fio JBL TUNE 750BTNC vêm com cancelamento ativo de ruído e tecnologia JBL Pure Bass, que cria um som envolvente e cheio de graves marcantes. O design over-ear é leve, compacto e dobrável, proporcionando o máximo conforto e a melhor qualidade de som para você levar aonde quiser. As baterias possuem 15 horas de autonomia e podem ser recarregadas em apenas duas horas. Você nunca mais vai precisar ouvir ruído. 
+                        </p>
+                        <button class="btn-flat btn-hover"><a href="./products.html">Compre agora</a></button>   
+                    </div>    
+                </div>
+            </div>    
+        </div>    
+    </div>
+
+    <!-- lista de produtos -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Mais vendido</h2>
+            </div>
+            <div class="row" id="best-products">
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./assets/img/JBL_Quantum_400_Product Image_Hero 02.png" alt="">
+                            <img src="./assets/img/JBL_Quantum_400_Product Image_Hero Mic Up.webp" alt="">    
+                        </div> 
+                        <div class="product-card-info">
+                            <div class="product-btn">
+                                <button class="btn-flat btn-hover btn-shop-now">Ver o produto</button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-cart-add' ></i>    
+                                </button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-heart' ></i>    
+                                </button>
+                            </div>
+                            <div class="product-card-name">
+                                JBL Quantum 400    
+                            </div>
+                            <div class="product-card-price">
+                                <span><del>R$300</del></span>
+                                <span class="curr-price">R$200</span>
+                            </div>        
+                        </div>   
+                    </div>    
+                </div>    
+            </div>
+            <div class="section-footer">
+                <a href="./products.html" class="btn-flat btn-hover">Ver mais</a>   
+            </div>
+        </div>
+    </div>
+    <!-- final da lista de produtos -->
+
+    <!-- blog -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 id="blog-link">Blog</h2>
+            </div>
+            <div class="blog">
+                <div class="blog-img">
+                    <img src="./assets/img/JBL_Quantum400_Lifestyle1.png" alt="">
+                </div>
+                <div class="blog-info">
+                    <div class="blog-title">
+                        O melhor Headphone para jogos e streamers.   
+                    </div>
+                    <div class="blog-preview">
+                        Aproveite a experiência de som mais imersiva do jogo com o som surround 
+                        personalizado, proporcionado pelo software de computador JBL QuantumENGINE 
+                        incluído. O JBL QuantumSURROUND™ coloca você no centro da experiência mais 
+                        envolvente, permitindo que você suba de nível e vença seus oponentes. Também 
+                        equipado com o fone de ouvido DTS: X v2.0. 
+                    </div>
+                    <button class="btn-flat btn-hover">leia mais</button>
+                </div>    
+            </div>
+            <div class="blog row-revere">
+                <div class="blog-img">
+                    <img src="./assets/img/JBL_TUNE220TWS_Lifestyle_black.png" alt="">
+                </div>
+                <div class="blog-info">
+                    <div class="blog-title">
+                        Fique conectado, mas sem fios.  
+                    </div>
+                    <div class="blog-preview">
+                        Nada de fios inconvenientes e embolados. Apenas música — quando você quiser 
+                        e onde você quiser, seja em dispositivos iPhone ou Android. O JBL TUNE 220TWS 
+                        transmite música sem fios, permite atender a chamadas sem as mãos e acompanham 
+                        você aonde você quiser.
+                    </div>
+                    <button class="btn-flat btn-hover">leia mais</button>
+                </div>    
+            </div>
+            <div class="blog">
+                <div class="blog-img">
+                    <img src="./assets/img/JBL_Quantum400_Lifestyle3.webp" alt="">
+                </div>
+                <div class="blog-info">
+                    <div class="blog-title">
+                        Jogue ainda mais com o conforto da espuma de memória. 
+                    </div>
+                    <div class="blog-preview">
+                        A haste leve e as almofadas auriculares com espuma de memória 
+                        foram projetadas até mesmo para as sessões de jogos mais longas.
+                    </div>
+                    <button class="btn-flat btn-hover">leia mais</button>
+                </div>    
+            </div>
+            <div class="section-footer">
+                <a href="#" class="btn-flat btn-hover">Ver mais</a>
+            </div>
+        </div>
+    </div>
+    <!-- final do blog -->
+
+    <!-- rodapé -->
+    <footer class="bg-second">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 col-md-6">
+                    <h3 class="footer-head">Produtos</h3>
+                    <ul class="menu">
+                        <li><a href="#">Caixas de Som Bluetooth</a></li>
+                        <li><a href="#">Fones de Ouvido</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Promoções</a></li>
+                        <li><a href="#">Profissional</a></li>
+                    </ul>
+                </div>  
+                <div class="col-3 col-md-6">
+                    <h3 class="footer-head">Serviços</h3>
+                    <ul class="menu">
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Contatos</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Garantia</a></li>
+                        <li><a href="#">Cupom</a></li>
+                    </ul>
+                </div>  
+                <div class="col-3 col-md-6">
+                    <h3 class="footer-head">Suporte</h3>
+                    <ul class="menu">
+                        <li><a href="#">Central de Ajuda</a></li>
+                        <li><a href="#">Perguntas Frequentes</a></li>
+                        <li><a href="#">Assistências Técnicas</a></li>
+                        <li><a href="#">Devoluções</a></li>
+                        <li><a href="#">Status do pedido</a></li>
+                    </ul>
+                </div> 
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="contact">
+                        <h3 class="contact-header">
+                            VMShop
+                        </h3>
+                        <ul id="contact-link" class="contact-socials">
+                            <li><a href="#"><i class='bx bxl-facebook-circle'></i>
+                            </a></li>
+                            <li><a href="#"><i class='bx bxl-instagram-alt' ></i>
+                            </a></li>   
+                            <li><a href="#"><i class='bx bxl-youtube' ></i>
+                            </a></li>
+                            <li><a href="#"><i class='bx bxl-twitter' ></i>
+                            </a></li>        
+                        </ul>
+                    </div>
+                    <div class="subscribe">
+                        <input type="email" placeholder="DIGITE SEU E-MAIL"> 
+                        <button>se inscrever</button>   
+                    </div>
+                </div>   
+            </div>
+        </div>    
+    </footer>
+    <!-- rodapé -->
+
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
